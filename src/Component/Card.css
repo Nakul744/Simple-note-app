@@ -1,0 +1,104 @@
+
+
+.parent{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    margin:50px; 
+
+
+    
+
+}
+.parent .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+
+.parent .top img{
+    width:30px;
+    height: 20px;
+    border: 1px solid #968080;
+    border-radius: 50%;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
+
+}
+
+.parent .top button{
+    background-color: #dadada;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.parent .middle{
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.parent .middle h3{
+    
+    padding: 0px;
+    margin-bottom:-10px;
+}
+.parent .middle button{
+    background-color:#dadada ;
+    color: black;
+    margin:-5px 20px 0 0;
+    padding: 9px 20px;
+    border-radius: 10px;
+   
+    
+
+    
+}
+.parent .middle button:hover{
+    border:1px solid purple;
+    box-shadow: #968080 0 0 5px;
+
+}
+
+.parent .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 0 0 ;
+    border-top: 1px solid gray;
+}
+
+.parent .bottom div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.parent .bottom div h4{
+    margin-bottom:-10px ;
+}
+
+.parent .bottom div p{
+    margin-top: -20px;
+
+}
+
+.parent .bottom button{
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    width: 90px;
+    border-radius:10px ;
+}
+
